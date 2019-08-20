@@ -11,20 +11,62 @@ const HomePage = () => {
     {
       id: 1,
       img: DuckImg,
-      points: 1100,
       name: 'Duck Invaders',
       citation: 'DUCK! DUCK! DUCK!',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra, velit ut luctus imperdiet, orci arcu vulputate urna, ac accumsan ex ligula sit amet lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra, velit ut luctus imperdiet, orci arcu vulputate urna, ac accumsan ex ligula sit amet lacus.',
-      totalAstronauts: 17,
+      astronauts: [
+        {
+          firstName: 'Jonathan',
+          lastName: 'Jalouzot',
+          userName: 'CaptainJojo',
+          age: 31,
+          points: 1200,
+        },
+        {
+          firstName: 'Kamal',
+          lastName: 'Farsaoui',
+          userName: 'Kamalou',
+          age: 35,
+          points: 850,
+        },
+        {
+          firstName: 'Pierre',
+          lastName: 'Brenot',
+          userName: 'Pierrot',
+          age: 12,
+          points: 500,
+        }
+      ],
     },
     {
       id: 2,
       img: RaccoonImg,
-      points: 500,
       name: 'Raccoon of Asgard',
       citation: 'Nous sommes les raccoons',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra, velit ut luctus imperdiet, orci arcu vulputate urna, ac accumsan ex ligula sit amet lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra, velit ut luctus imperdiet, orci arcu vulputate urna, ac accumsan ex ligula sit amet lacus.',
-      totalAstronauts: 16,
+      astronauts: [
+        {
+          firstName: 'Nicolas',
+          lastName: 'Grévin',
+          userName: 'GNicolas',
+          age: 30,
+          points: 150,
+        },
+        {
+          firstName: 'Kévin',
+          lastName: 'Agiri',
+          userName: 'MasterPO',
+          age: 29,
+          points: 850,
+        },
+        {
+          firstName: 'Kevin',
+          lastName: 'Cordier',
+          userName: 'Tintin',
+          age: 12,
+          points: 500,
+        }
+      ],
     }
   ];
 

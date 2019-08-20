@@ -5,6 +5,9 @@ const AstronautsTotal = styled.div`
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
 `;
 
 export default AstronautsTotal;
