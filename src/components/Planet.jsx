@@ -30,14 +30,16 @@ const Planet = ({ planet, position }) => {
         <AstronautsTotal>
           {`Cette planète est habité par ${astronauts.length} astronautes`}
           <Button onClick={() => toggle(!open)} collapse={open}>
-            <MdKeyboardArrowDown size="3em" />
+            <MdKeyboardArrowDown />
           </Button>
         </AstronautsTotal>
-        {open && (<AstronautsDataTable
-          noHeader
-          columns={[{ name: 'Pseudo', selector: 'userName' }, { name: 'Points', selector: 'points', }]}
-          data={astronauts}
-        />)}
+        {open && (
+          <AstronautsDataTable
+            noHeader
+            columns={[{ name: 'Pseudo', selector: 'userName' }, { name: 'Points', selector: 'points', }]}
+            data={astronauts}
+          />
+        )}
       </div>
     </Container>
   );
